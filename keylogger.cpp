@@ -3,6 +3,8 @@
 #include <fstream>
 #include <map>
 
+// Keep in mind that if you are testing this that it constantly keeps adding to the same log file even if run many times
+
 namespace keylogger {
   constexpr auto KEY_START = 8; // ASCII value of the first key to be logged
   constexpr auto KEY_END = 255; // ASCII value of the last key to be logged
